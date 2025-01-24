@@ -12,7 +12,7 @@ public class Main {
 		return false;
 	}
 
-}
+
 
 
 	public static boolean esDivisiblePorTres(int numero){

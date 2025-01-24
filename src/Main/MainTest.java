@@ -1,14 +1,3 @@
-package Main;
-
-public class MainTest {
-    
-    public static void main(String[] args) {
-
-        boolean metodo = Main.esPar(2);
-        System.out.println("El 2 es par: " + metodo);
-    }
-    
-}
 
 package Main;
 
@@ -18,6 +7,9 @@ public class MainTest {
 		System.out.println("4 es divisible entre 3 " + Main.esDivisiblePorTres(4));
 		System.out.println("6 es divisible entre 3 " + Main.esDivisiblePorTres(6));	
 	}
+
+	boolean metodo = Main.esPar(2);
+	System.out.println("El 2 es par: " + metodo);
 	
 
 }
